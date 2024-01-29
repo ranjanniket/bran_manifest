@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: bran-container
-        image: niket50/bran:latest
+        image: niket50/bran:20
         ports:
         - containerPort: 8000
         envFrom:
